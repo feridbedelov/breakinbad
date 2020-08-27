@@ -1,0 +1,8 @@
+.hero{
+    background-image: url("/bgImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    z-index: 100;
+}
