@@ -6,13 +6,13 @@ function about({ episodes, deaths }) {
         <Layout activePage="about">
             <Jumbotron fluid>
                 <Container>
-                    <h2 className="display-1 text-center">About Breaking Bad</h2>
+                    <h1 className="display-4 text-center">About Breaking Bad</h1>
 
                 </Container>
             </Jumbotron>
             <div className="container">
                 <div className="row my-4">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-6 mb-4">
                         <h2 className='display-4'>All Series - {episodes.length} </h2>
                         <Accordion defaultActiveKey="1">
                             {episodes.map(episodeItem => {
@@ -39,7 +39,7 @@ function about({ episodes, deaths }) {
                     </div>
 
 
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-6 mb-4">
                         <h2 className='display-4'>All Deaths - {deaths.length}</h2>
                         <Accordion defaultActiveKey="1">
                             {deaths.map(deathItem => {

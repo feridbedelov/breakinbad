@@ -58,7 +58,7 @@ function Search() {
 
 
     return (
-        <div className={`jumbotron jumbotron-fluid ${styles.hero}  `}>
+        <div className={`jumbotron jumbotron-fluid `}>
             <div className="container">
                 <h2 className="display-4 text-center mb-4">Search Character</h2>
                 <div className="row">

@@ -9,7 +9,7 @@ export default function Characters({ characters, total, currentPage }) {
         <Layout activePage="chars">
             <Jumbotron fluid>
                 <Container>
-                    <h2 className="display-1 text-center">All Characters</h2>
+                    <h1 className="display-4 text-center">All Characters</h1>
                     <p className="lead text-center">
                         This is a modified jumbotron that occupies the entire horizontal space of
                         its parent.
