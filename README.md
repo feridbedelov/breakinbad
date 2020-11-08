@@ -18,5 +18,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - React-Bootstrap as CSS Framework
 - Axios 
 - Nprogress
-- See actual website https://breakinbad.vercel.app/
+- See actual website https://breaking-bad-site.vercel.app/
 
